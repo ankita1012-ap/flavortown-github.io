@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - Flavour Town Restaurant</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+    }
+    .hero {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      align-items: center;
+      padding: 40px 10%;
+    }
+    .hero img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    .hero-content h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: auto;
+      padding: 40px 0;
+    }
+    .section {
+      margin-bottom: 60px;
+    }
+    .section h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 2rem;
+    }
+    .features, .highlights, .team {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #f9f9f9;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+    .team img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+    @media(max-width: 768px) {
+      .hero {
+        grid-template-columns: 1fr;
+        padding: 20px;
+      }
+      .hero-content h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <section class="hero">
+    <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092" alt="Flavour Town Restaurant">
+    <div class="hero-content">
+      <h1>About Flavour Town Restaurant</h1>
+      <p>Welcome to <strong>Flavour Town Restaurant</strong>, located in the heart of Hazratganj, Lucknow. We believe a great meal is more than just food – it's an experience filled with warmth, tradition, and unforgettable taste. Our chefs combine the richness of authentic Indian cuisine with global flavors, creating dishes that delight every palate.</p>
+    </div>
+  </section>
+
+  <div class="container">
+    <section class="section">
+      <h2>Why Choose Us?</h2>
+      <div class="features">
+        <div class="card">
+          <h3>Fresh Ingredients</h3>
+          <p>We use only the finest, freshest ingredients sourced daily to ensure authentic taste.</p>
+        </div>
+        <div class="card">
+          <h3>Authentic Taste</h3>
+          <p>Recipes inspired by traditional Indian flavors and global cuisine.</p>
+        </div>
+        <div class="card">
+          <h3>Cozy Ambiance</h3>
+          <p>A warm, welcoming atmosphere perfect for families, friends, and couples.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Highlights</h2>
+      <div class="highlights">
+        <div class="card">
+          <img src="image/fresh.jpeg" alt="Fresh Salad">
+          <h3>Fresh Ingredients</h3>
+          <p>Handpicked vegetables and greens to keep your meals healthy and flavorful.</p>
+        </div>
+        <div class="card">
+          <img src="image/Authentic Taste.jpg" alt="Authentic Indian Dish">
+          <h3>Authentic Taste</h3>
+          <p>From Lucknowi biryani to traditional thalis, savor true Indian flavors.</p>
+        </div>
+        <div class="card">
+          <img src="image/Cozy Ambiance.jpeg" alt="Cozy Restaurant Ambiance">
+          <h3>Cozy Ambiance</h3>
+          <p>Relax in a welcoming space designed for comfort and memorable dining.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Our Team & Hospitality</h2>
+      <div class="team">
+        <div class="card">
+          <img src="image/asmit.jpg" alt="Chef">
+          <h3>Asmit Tiwari</h3>
+          <p> Hospitality Expert – Making every guest feel at home</p>
+        </div>
+        <div class="card">
+          <img src="image/finalanki.jpg" alt="Manager">
+          <h3>Ankita Tiwari</h3>
+          <p>Restaurant Manager – Ensuring top-notch service</p>
+        </div>
+        <div class="card">
+          <img src="image/harshit.jpg" alt="Hospitality">
+          <h3>Harshit Tiwari</h3>
+          <p>Owner - Making every guest feel at home</p>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
